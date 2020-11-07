@@ -25,7 +25,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 Hero(
                   tag: 'logo',
                   child: Container(
-                    child: Image.network('https://picsum.photos/200/300'),
+                    child: Image.asset('images/medscript_logo.png'),
                     height: 100,
                   ),
                 ),
