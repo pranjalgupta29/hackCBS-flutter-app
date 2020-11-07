@@ -1,34 +1,20 @@
+import 'package:bmi_calculator/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(BMICalculator());
+void main() => runApp(MedScript());
 
-class BMICalculator extends StatelessWidget {
+class MedScript extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: InputPage(),
-    );
-  }
-}
-
-class InputPage extends StatefulWidget {
-  @override
-  _InputPageState createState() => _InputPageState();
-}
-
-class _InputPageState extends State<InputPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
-      ),
-      body: Center(
-        child: Text('Body Text'),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-      ),
+      theme: ThemeData.dark().copyWith(
+          textTheme: TextTheme(
+        body1: TextStyle(color: Colors.black54),
+      )),
+      initialRoute: WelcomeScreen.id,
+      routes: {
+        WelcomeScreen.id: (context) => WelcomeScreen(),
+      },
     );
   }
 }
