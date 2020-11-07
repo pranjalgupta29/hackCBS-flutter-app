@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484984269975",
+    "firebase_url": "https://medscript-47d32.firebaseio.com",
+    "project_id": "medscript-47d32",
+    "storage_bucket": "medscript-47d32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484984269975:android:83f8faa2a19e82dc000dd2",
+        "android_client_info": {
+          "package_name": "co.hackcbs.medscript"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484984269975-51hqjf9vssb1vol6p9p4kv177ldoct6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo_BXYclMxxGFnuwuFBNzT9_S7Ju5QSqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484984269975-51hqjf9vssb1vol6p9p4kv177ldoct6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
